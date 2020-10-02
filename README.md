@@ -1,5 +1,5 @@
 # Name-counter
-Node/Typescript app which demonstrates text parsing.
+Node/Typescript app which demonstrates text search.
 
 There are two input files included in the repo; one with a list of approximately 5,400 first names and one with the entire text of [Oliver Twist](https://en.wikipedia.org/wiki/Oliver_Twist). The app counts the occurences of each name in the text of the story and writes a file with results sorted from most to least frequent. It takes around 20 seconds to run. 
 
