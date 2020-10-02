@@ -12,6 +12,10 @@
     "test": "sudo npm i -g && namecounter",
     "refresh": "rm -rf ./node_modules ./package-lock.json && npm install"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sauntimo/name-counter.git"
+  },
   "author": "Tim Saunders",
   "license": "MIT",
   "devDependencies": {
