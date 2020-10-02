@@ -1,0 +1,5 @@
+# dependencies
+/node_modules
+
+# txt files for testing
+results.txt
