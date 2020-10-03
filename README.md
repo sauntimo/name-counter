@@ -1,7 +1,9 @@
 # Name-counter
 Node/Typescript app which demonstrates text search.
 
-There are two input files included in the repo; one with a list of approximately 5,400 first names and one with the entire text of [Oliver Twist](https://en.wikipedia.org/wiki/Oliver_Twist). The app counts the occurences of each name in the text of the story and writes a file with results sorted from most to least frequent. It takes around 20 seconds to run. 
+There are two input files included in the repo; one with a list of approximately 5,400 first names and one with the entire text of [Oliver Twist](https://en.wikipedia.org/wiki/Oliver_Twist). The app counts the occurences of each name in the text of the story and writes a file with results sorted from most to least frequent. 
+
+The text search is handled by the [streamsearch](https://www.npmjs.com/package/streamsearch) npm package which implements the [Boyer–Moore–Horspool algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore%E2%80%93Horspool_algorithm). It takes around 20 seconds to run.
 
 ### Installation
 
