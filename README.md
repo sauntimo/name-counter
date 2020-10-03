@@ -22,3 +22,8 @@ $ namecounter
 ```
 
 ![image](https://user-images.githubusercontent.com/2720466/94945032-fdf06c00-04d1-11eb-83cd-3466eff93b92.png)
+
+
+### See Also
+
+Similar functionality is also provided at via an API and a simple frontend at [name-counter-api.herokuapp.com](https://name-counter-api.herokuapp.com/), with code at [github.com/sauntimo/name-counter-api](https://github.com/sauntimo/name-counter-api).
