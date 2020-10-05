@@ -47,6 +47,10 @@ const processNames = async (): Promise<INameCount[]> => {
   return nameCounts.sort(compareCounts);
 }
 
+/**
+ * Takes a name and returns a count of occurrences in Olive Twist
+ * @param name a name to search the text for
+ */
 const countName = async (name: string): Promise<number> => {
 
   let needle = Buffer.from(name, 'utf8')
