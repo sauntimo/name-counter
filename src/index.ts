@@ -48,7 +48,7 @@ const processNames = async (): Promise<INameCount[]> => {
 }
 
 /**
- * Takes a name and returns a count of occurrences in Olive Twist
+ * Takes a name and returns a count of occurrences in Oliver Twist
  * @param name a name to search the text for
  */
 const countName = async (name: string): Promise<number> => {
