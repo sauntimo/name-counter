@@ -5,7 +5,7 @@ There are two input files included in the repo; one with a list of approximately
 
 The text search is handled by the [streamsearch](https://www.npmjs.com/package/streamsearch) npm package which implements the [Boyer–Moore–Horspool algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore%E2%80%93Horspool_algorithm). It takes around 20 seconds to run.
 
-Note that the matching is case sensitive so a search for "Oliver" will return 830 results and a search for "OLVIER" will return 51. I considered lower casing the whole text to return both combined but that resulted in a large number of false potisitves for 2 letter names. 
+Note that the matching is case sensitive so a search for "Oliver" will return 830 results and a search for "OLIVER" will return 51. I considered lower casing the whole text to return both combined but that resulted in a large number of false potisitves for 2 letter names. 
 
 ### Installation
 
