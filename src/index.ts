@@ -2,7 +2,7 @@
 
 import fs from 'fs';
 import path from 'path';
-const StreamSearch = require('streamsearch');
+import StreamSearch = require('streamsearch');
 
 interface INameCount {
   name: string;
@@ -53,11 +53,11 @@ const processNames = async (): Promise<INameCount[]> => {
  */
 const countName = async (name: string): Promise<number> => {
 
-  let needle = Buffer.from(name, 'utf8')
-  let streamSearch = new StreamSearch(needle);
+  const needle = Buffer.from(name, 'utf8')
+  const streamSearch = new StreamSearch(needle);
   const readStream = fs.createReadStream(path.join(__dirname, '../inputs/oliver-twist.txt'), 'utf8');
 
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     readStream.on('data', (chunk) => {
       streamSearch.push(chunk);
     }).on('end', () => {
