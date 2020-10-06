@@ -25,7 +25,7 @@ Note that the matching is case sensitive so a search for "Oliver" will return 83
 $ namecounter
 ```
 
-![image](https://user-images.githubusercontent.com/2720466/94945032-fdf06c00-04d1-11eb-83cd-3466eff93b92.png)
+![image](https://user-images.githubusercontent.com/2720466/95250247-b9d2d380-0811-11eb-8e03-50ba2979b9f6.png)
 
 
 ### See Also
