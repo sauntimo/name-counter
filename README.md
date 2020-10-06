@@ -16,7 +16,7 @@ Note that the matching is case sensitive so a search for "Oliver" will return 83
   
 - initialise
   ```
-  $ cd name-counter && sudo npm i -g 
+  $ cd name-counter && npm i -g 
   ```
 
 ### Usage
